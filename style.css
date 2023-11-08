@@ -1,0 +1,24 @@
+.imel > * {
+    display: inline-block;
+}
+
+.nev > * {
+    display: inline-block;
+}
+
+form > div, p {
+    margin: 16px;
+}
+
+.jelszo_container > * {
+    display: inline-block;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    float: right;
+    border-radius: 16px;
+    width: 75px;
+    height: 50px;
+}

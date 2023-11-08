@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="index.html">
+        <div class="megszolitas">
+            <input type="radio" name="megszolitas" id="urholgy">
+            <label for="megszolitas">Úrhölgy</label>
+            <input type="radio" name="megszolitas" id="ur">
+            <label for="megszolitas">Úr</label>
+        </div>
+
+        <div class="nev">
+            <div class="vezeteknev_container">
+                <label for="vezeteknev">Vezetéknév<sup>*</sup></label>
+                <br>
+                <input type="text" name="vezeteknev" id="vezeteknev">
+            </div>
+            <div class="keresztnev_container">
+                <label for="keresztnev">Keresztnév<sup>*</sup></label>
+                <br>
+                <input type="text" name="keresztnev" id="keresztnev">
+            </div>
+        </div>
+
+        <div class="szuletes">
+            <label for="ev">Születési dátum<sup>*</sup></label>
+            <br>
+            <input type="number" name="ev" id="ev" max="2023" placeholder="ÉÉÉÉ">
+            <input type="number" name="honap" id="honap" max="12" placeholder="HH">
+            <input type="number" name="nap" id="nap" max="31" placeholder="NN">
+        </div>
+
+        <div class="imel">
+            <div class="elso">
+                <label for="email">E-Mail cím<sup>*</sup></label>
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="masodik">
+                <label for="email_ism">E-Mail cím ismételt megadása<sup>*</sup></label>
+                <br>
+                <input type="email" name="email_ism" id="email_ism">
+            </div>
+        </div>
+
+        <div class="jelszo_container">
+            <div>
+                <label for="jelszo">Jelszó<sup>*</sup></label>
+                <br>
+                <input type="password" name="jelszo" id="jelszo">
+            </div>
+            <div>
+                <label for="jelszo_ism">Jelszó ismételt megadása<sup>*</sup></label>
+                <br>
+                <input type="password" name="jelszo_ism" id="jelszo_ism">
+            </div>
+        </div>
+
+        <p><sup>*</sup> - kötelező mezők</p>
+
+        <div class="aszf_container">
+            <input type="checkbox" name="aszf" id="aszf">
+            <label for="aszf">Tudomásul vettem hogy nem olvastam el az ÁSZF-et</label>
+        </div>
+
+        <div class="hirlevel_container">
+            <input type="checkbox" name="hirlevel" id="hirlevel">
+            <label for="hirlevel">Szeretnék feliratkozni a hírlevélre</label>
+        </div>
+
+        <button type="submit">Tovább</button>
+    </form>
+</body>
+
+</html>
