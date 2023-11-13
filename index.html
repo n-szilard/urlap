@@ -12,6 +12,8 @@
 <body>
     <form action="index.html">
         <div class="megszolitas">
+            <label for="radio">Megszólítás<sup>*</sup></label>
+            <br>
             <input type="radio" name="megszolitas" id="urholgy">
             <label for="megszolitas">Úrhölgy</label>
             <input type="radio" name="megszolitas" id="ur">
@@ -34,9 +36,9 @@
         <div class="szuletes">
             <label for="ev">Születési dátum<sup>*</sup></label>
             <br>
-            <input type="number" name="ev" id="ev" max="2023" placeholder="ÉÉÉÉ">
-            <input type="number" name="honap" id="honap" max="12" placeholder="HH">
-            <input type="number" name="nap" id="nap" max="31" placeholder="NN">
+            <input type="number" name="ev" id="ev" max="2023" placeholder="ÉÉÉÉ" size="6">
+            <input type="number" name="honap" id="honap" max="12" placeholder="HH" size="4">
+            <input type="number" name="nap" id="nap" max="31" placeholder="NN" size="4">
         </div>
 
         <div class="imel">

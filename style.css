@@ -16,9 +16,45 @@ form > div, p {
 
 button {
     color: white;
-    background-color: blue;
+    background-color: darkblue;
     float: right;
-    border-radius: 16px;
+    border-radius: 32px;
     width: 75px;
     height: 50px;
+    font-weight: bold;
+}
+
+form {
+    width: 600px;
+}
+
+input {
+    padding: 8px;
+}
+
+#ev, #honap, #nap {
+    padding: 8px;
+    margin-right: 12px;
+}
+
+.nev input {
+    width: 200px;
+    margin-right: 16px;
+
+}
+
+.imel input {
+    width: 200px;
+    margin-right: 16px;
+
+}
+
+.jelszo_container input {
+    width: 200px;
+    margin-right: 16px;
+}
+
+p {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
