@@ -16,12 +16,13 @@ form > div, p {
 
 button {
     color: white;
-    background-color: darkblue;
+    background-color: #002b6e;
     float: right;
     border-radius: 32px;
-    width: 75px;
-    height: 50px;
+    width: 85px;
+    height: 40px;
     font-weight: bold;
+    border: none;
 }
 
 form {
@@ -30,6 +31,8 @@ form {
 
 input {
     padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ededef;
 }
 
 #ev, #honap, #nap {
@@ -57,4 +60,14 @@ input {
 p {
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+input[type="radio"] {
+    width: 25px;
+    height: 25px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
 }
